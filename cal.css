@@ -1,0 +1,52 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap'); */
+body{
+    text-align:center;
+    padding:100px 0px 100px 0px;
+    /* background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 20%,
+              rgba(45,93,253,1) 95%); */
+    background-image:url('img3.jpg');
+}
+.calculator {
+padding: 15px;
+border-radius: 1em;
+height: 480px;
+width: 400px;
+margin: auto;
+background-color: rgb(152, 203, 225);
+box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.display-box {
+font-family: Arial, Helvetica, sans-serif;
+background-color: #dcdbe1;
+border: solid black 1px;
+color: black;
+border-radius: 5px;
+width: 115%;
+height: 75%;
+}
+
+#btn {
+background-color: #ed9954;
+}
+#res{
+    background-color: rgb(8, 142, 6);
+}
+input[type=button] {
+font-family: Arial, Helvetica, sans-serif;
+background-color: #8452a7;
+color: white;
+border: solid black 1px;
+width: 100%;
+border-radius: 8px;
+height: 70%;
+outline: none;
+}
+
+input:active[type=button] {
+background: #e5e5e5;
+-webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+-moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+box-shadow: inset 0px 0px 5px #c1c1c1;
+}
